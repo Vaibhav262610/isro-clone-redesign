@@ -1,6 +1,5 @@
 import React from "react";
-import Image from 'next/image'
-import engine from '../public/img/engines.png'
+ 
 
 const AboutMain = () => {
   return (
@@ -100,7 +99,7 @@ const AboutMain = () => {
             </div>
           </div>
           <div>
-            <Image src="/img/pslv.png" width={200} height={1800}  className=" pb-36" />
+            <img src="/img/pslv.png" className=" pb-36" />
           </div>
           <div className="flex flex-col gap-28 mt-60 ml-28  w-3/12">
             <div className="text-white  font-extrabold">
@@ -157,7 +156,7 @@ const AboutMain = () => {
                     <h1 className="text-6xl">4800 kN</h1>
                   </div>
                 </div>
-                  {/* <Image src={engine} alt='hello' layout="responsive" height={10} width={5}  className="  h-24 ml-32  " /> */}
+                  <img src='/img/engines.png'  alt='hello' className="  h-64 w-fit ml-32  " />
             </div>
             <div className="text-white  font-extrabold">
               <h1 className="tracking-wide border-b-4 border-b-white w-fit text-3xl">

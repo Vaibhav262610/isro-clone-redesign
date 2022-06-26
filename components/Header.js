@@ -39,11 +39,9 @@ const Header = () => {
               </button>
             </div>
             <div>
-              <Image
-                src="/img/astronaut.png"
-                width={500}
-                height={700}
-                className="imgSpace "
+              <img
+                src="/img/astronaut.png" 
+                className="imgSpace w-9/12 "
                 alt="Failed To Load"
               />
             </div>
