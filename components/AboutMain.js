@@ -16,7 +16,7 @@ const AboutMain = () => {
                 Polar Satellite Launch Vehicle (PSLV) is the third generation
                 launch vehicle of India. It is the first Indian launch vehicle
                 to be equipped with liquid stages. After its first successful
-                launch in October 1994, PSLV emerged as the reliable and
+                launch in October 1994&lsquo; PSLV emerged as the reliable and
                 versatile workhorse launch vehicle of India with 39
                 consecutively successful missions by June 2017.
               </h2>
@@ -66,7 +66,7 @@ const AboutMain = () => {
               <h2 className="text-md mt-8">
                 PSLV uses 6 solid rocket strap-on motors to augment the thrust
                 provided by the first stage in its PSLV-G and PSLV-XL variants.
-                However, strap-ons are not used in the core alone version
+                However&lsquo; strap-ons are not used in the core alone version
                 (PSLV-CA).
                 <br />
                 Fuel : HTPB
@@ -105,13 +105,13 @@ const AboutMain = () => {
           <div className="flex flex-col gap-28 mt-60 ml-28  w-3/12">
             <div className="text-white  font-extrabold">
               <h1 className="tracking-wide border-b-4 border-b-white w-fit text-3xl">
-                Payload to SSPO: 1,750 kg
+                Payload to SSPO: 1&lsquo;750 kg
               </h1>
               <h2 className="text-md mt-8">
-                PSLV earned its title 'the Workhorse of ISRO' through
-                consistently delivering various satellites to Low Earth Orbits,
+                PSLV earned its title &apos; the Workhorse of ISRO&apos; through
+                consistently delivering various satellites to Low Earth Orbits&lsquo;
                 particularly the IRS series of satellites. It can take up to
-                1,750 kg of payload to Sun-Synchronous Polar Orbits of 600 km
+                1&lsquo;750 kg of payload to Sun-Synchronous Polar Orbits of 600 km
                 altitude.
               </h2>
               <button className="mt-8 duration-300 hover:bg-white hover:text-black text-white border-2 border-white rounded-lg px-4 py-2 ">
@@ -123,7 +123,7 @@ const AboutMain = () => {
                 Second Stage: PS4
               </h1>
               <h2 className="text-md mt-8">
-                Fourth Stage: PS4 The PS4 is the uppermost stage of PSLV,
+                Fourth Stage: PS4 The PS4 is the uppermost stage of PSLV&lsquo;
                 comprising of two Earth storable liquid engines.
                 <br />
                 <br />
@@ -164,7 +164,7 @@ const AboutMain = () => {
                 Fourth Stage: PS4
               </h1>
               <h2 className="text-md mt-8">
-                Fourth Stage: PS4 The PS4 is the uppermost stage of PSLV,
+                Fourth Stage: PS4 The PS4 is the uppermost stage of PSLV&lsquo;
                 comprising of two Earth storable liquid engines.
                 <br />
                 Engine : 2 x PS-4
