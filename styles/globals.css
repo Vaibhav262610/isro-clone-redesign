@@ -1,16 +1,51 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  cursor: url("../public/img/startup.png"), pointer;
 }
+ 
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color:#1d1d1d  ;
+}
+
+.header {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)),
+    url("../public/img/sunrise.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.imgSpace{
+    transform: rotate(20deg);
+    animation: moveInSpace 12s ease-in-out infinite alternate; 
+}
+
+@keyframes moveInSpace {
+    50% {
+      transform: translateY(-100px) rotate(-20deg) scale(0.8);
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  }
+  
+  ::selection {
+    background: tomato;
+  }
+  
