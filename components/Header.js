@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import { FaFacebookF } from "react-icons/fa";
 import { BsTwitter, BsYoutube } from "react-icons/bs";
 import { RiLinkedinFill } from "react-icons/ri";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -38,9 +39,11 @@ const Header = () => {
               </button>
             </div>
             <div>
-              <img
+              <Image
                 src="/img/astronaut.png"
-                className="imgSpace w-9/12"
+                width={500}
+                height={700}
+                className="imgSpace "
                 alt="Failed To Load"
               />
             </div>

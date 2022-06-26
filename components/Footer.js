@@ -1,11 +1,12 @@
 import React from 'react'
+import Image from 'next/dist/client/image'
 
 const Footer = () => {
   return (
      <>
      <div className='flex justify-around items-center bg-[#121212] h-80 w-full'>
       <div className='flex flex-col justify-center text-white font-bold'>
-        <img src='/img/logo.svg' className='h-40' />
+        <Image src='/img/logo.svg' width="100%" height='100%' className='h-40' />
         <div className='flex flex-col items-center'>
         <h1>Cloned by 💖</h1>
         <h1 className='animate-pulse text-green-300 '>Vaibhav Rajpoot</h1>

@@ -1,5 +1,6 @@
 import React from "react";
 import { BsSearch } from "react-icons/bs";
+import Image from "next/dist/client/image";
 
 const Navbar = () => {
   return (
@@ -7,7 +8,8 @@ const Navbar = () => {
       <div className="flex justify-center border-b-2 border-b-[#1d1d1d]">
         <div className="h-24 flex justify-between w-11/12  items-center   ">
           <div>
-            <img src="/img/logo.svg" className="h-16 cursor-pointer" />
+            
+            <Image src="/img/logo.svg" width="100%" height="100%" className="h-16 cursor-pointer" />
           </div>
           <div className="flex gap-6">
             <h2 className=" cursor-pointer duration-300 hover:scale-90 text-white font-semibold text-lg">
