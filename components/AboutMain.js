@@ -101,7 +101,7 @@ const AboutMain = () => {
           <div>
             <img src="/img/pslv.png" className=" pb-36 pt-24 sm:pt-0 sm:ml-0 ml-20" />
           </div>
-          <div className="flex flex-col gap-36 sm:mr-28 mr-0 sm:ml-0 ml-8 w-10/12 sm:w-3/12">
+          <div className="flex flex-col gap-36 sm:ml-28 mr-0 ml-8 w-10/12 sm:w-3/12">
             <div className="text-white  font-extrabold">
               <h1 className="tracking-wide border-b-4 border-b-white w-fit text-3xl">
                 Payload to SSPO: 1&lsquo;750 kg
