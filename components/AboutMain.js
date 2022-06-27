@@ -5,8 +5,8 @@ const AboutMain = () => {
   return (
     <>
       <div className="flex justify-center  mt-24">
-        <div className="  flex justify-center">
-          <div className="flex flex-col gap-36 mr-28  w-3/12">
+        <div className="flex flex-col sm:flex-row justify-center">
+          <div className="flex flex-col gap-36 sm:mr-28 mr-0 sm:ml-0 ml-8 w-10/12 sm:w-3/12">
             <div className="text-white  font-extrabold">
               <h1 className="tracking-wide border-b-4 border-b-white w-fit text-4xl">
                 PSLV
@@ -86,7 +86,7 @@ const AboutMain = () => {
                 <div className="flex flex-col">
                   <h2  className="text-sm">BURNTIME</h2>
                   <h1 className="text-6xl">
-                    162<span className="text-4xl">sec</span>{" "}
+                    162<span className="text-2xl sm:text-4xl">sec</span>{" "}
                   </h1>
                 </div>
               </div>
@@ -99,9 +99,9 @@ const AboutMain = () => {
             </div>
           </div>
           <div>
-            <img src="/img/pslv.png" className=" pb-36" />
+            <img src="/img/pslv.png" className=" pb-36 pt-24 sm:pt-0 sm:ml-0 ml-20" />
           </div>
-          <div className="flex flex-col gap-28 mt-60 ml-28  w-3/12">
+          <div className="flex flex-col gap-36 sm:mr-28 mr-0 sm:ml-0 ml-8 w-10/12 sm:w-3/12">
             <div className="text-white  font-extrabold">
               <h1 className="tracking-wide border-b-4 border-b-white w-fit text-3xl">
                 Payload to SSPO: 1&lsquo;750 kg
@@ -146,7 +146,7 @@ const AboutMain = () => {
                 <div className="flex flex-col">
                   <h2  className="text-sm">BURNTIME</h2>
                   <h1 className="text-6xl">
-                    397<span className="text-4xl">sec</span>{" "}
+                    397<span className="text-2xl sm:text-4xl">sec</span>{" "}
                   </h1>
                 </div>
               </div>
@@ -156,9 +156,9 @@ const AboutMain = () => {
                     <h1 className="text-6xl">4800 kN</h1>
                   </div>
                 </div>
-                  <img src='/img/engines.png'  alt='hello' className="  h-64 w-fit ml-32  " />
+                  {/* <img src='/img/engines.png'  alt='hello' className="  h-64 w-fit ml-32  " /> */}
             </div>
-            <div className="text-white  font-extrabold">
+            <div className="text-white  font-extrabold pb-24 sm:pb-0">
               <h1 className="tracking-wide border-b-4 border-b-white w-fit text-3xl">
                 Fourth Stage: PS4
               </h1>

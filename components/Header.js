@@ -8,7 +8,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <>
-      <div className="header">
+      <div className="header sm:block hidden">
         <Navbar />
         <div className="flex ">
           <div className=" w-36 border-r-2 border-r-[#1d1d1d]">
