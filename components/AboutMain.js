@@ -156,7 +156,7 @@ const AboutMain = () => {
                     <h1 className="text-6xl">4800 kN</h1>
                   </div>
                 </div>
-                  {/* <img src='/img/engines.png'  alt='hello' className="  h-64 w-fit ml-32  " /> */}
+                  <img src='/img/engines.png'  alt='hello' className="sm:block hidden  h-64 w-fit ml-32  " />
             </div>
             <div className="text-white  font-extrabold pb-24 sm:pb-0">
               <h1 className="tracking-wide border-b-4 border-b-white w-fit text-3xl">
