@@ -11,7 +11,7 @@ const Header2 = () => {
       <div className="header visible sm:hidden">
         <Navbar />
         <div className="flex ">
-          <div className="flex flex-col mt-28 justify-center items-center pb-28">
+          <div className="flex flex-col mt-28 justify-center items-center pb-8">
             <div className=" px-12">
               <h1 className="text-2xl font-black tracking-wide leading-9 text-white">
                 Our vision is to harness space technology for national
@@ -25,7 +25,7 @@ const Header2 = () => {
             <div>
               <img
                 src="/img/astronaut.png" 
-                className="imgSpace w-9/12 mt-20 ml-12 "
+                className="imgSpace w-10/12 mt-20 ml-4 "
                 alt="Failed To Load"
               />
             </div>
