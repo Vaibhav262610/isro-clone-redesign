@@ -8,7 +8,7 @@ import Image from "next/image";
 const Header2 = () => {
   return (
     <>
-      <div className="header visible sm:hidden">
+      <div className="header visible md:hidden">
         <Navbar />
         <div className="flex ">
           <div className="flex flex-col mt-28 justify-center items-center pb-8">
@@ -25,7 +25,7 @@ const Header2 = () => {
             <div>
               <img
                 src="/img/astronaut.png" 
-                className="imgSpace w-10/12 mt-20 ml-4 "
+                className="imgSpace w-9/12 mt-20 ml-12   "
                 alt="Failed To Load"
               />
             </div>

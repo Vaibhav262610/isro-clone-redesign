@@ -137,7 +137,7 @@ const AboutMain = () => {
                 </button>
               </h2>
             </div>
-            <div className="flex flex-col gap-14">
+            <div className="flex hidden md:flex-col gap-14">
               <div className="text-white font-bold gap-12 flex items-center">
                 <div className="flex flex-col">
                   <h2 className="text-sm">ENGINE</h2>
@@ -156,7 +156,7 @@ const AboutMain = () => {
                     <h1 className="text-6xl">4800 kN</h1>
                   </div>
                 </div>
-                  <img src='/img/engines.png'  alt='hello' className="sm:block hidden  h-64 w-fit ml-32  " />
+                  <img src='/img/engines.png'  alt='hello' className="sm:block hidden md:hidden  h-64 w-fit ml-32  " />
             </div>
             <div className="text-white  font-extrabold pb-24 sm:pb-0">
               <h1 className="tracking-wide border-b-4 border-b-white w-fit text-3xl">

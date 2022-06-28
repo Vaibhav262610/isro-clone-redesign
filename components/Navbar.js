@@ -12,7 +12,7 @@ const Navbar = () => {
             
             <img src="/img/logo.svg" className="sm:h-16 h-16 cursor-pointer" />
           </div>
-          <div className="sm:flex gap-6 hidden">
+          <div className="md:flex gap-6 hidden">
             <h2 className=" cursor-pointer duration-300 hover:scale-90 text-white font-semibold text-lg">
               Home
             </h2>
@@ -29,11 +29,11 @@ const Navbar = () => {
               Shop
             </h2>
           </div>
-          <div className=" hidden sm:flex gap-3 items-center bg-[#121212] px-4 py-2 rounded-3xl  cursor-text text-white ">
+          <div className=" hidden md:flex gap-3 items-center bg-[#121212] px-4 py-2 rounded-3xl  cursor-text text-white ">
             <BsSearch size={17} />
             <input className="bg-transparent outline-none" />
           </div>
-          <div className="sm:hidden flex ">
+          <div className="md:hidden flex ">
             <MdOutlineShortText className="fill-white " size={40} />
           </div>
         </div>
